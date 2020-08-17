@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Horror Time</title>
+    <link rel="icon" type="image/png" href="https://image.flaticon.com/icons/svg/2941/2941796.svg">
+
+    
+
+</head>
+<body>
+
+    <main id="main">
+        <section >
+            <div id="area-cabeçalho">
+                <h1 id="title">Stephen King</h1>
+                <h3>Rei do Terror</h3>
+            </div>
+        </section>
+        <div id="menu">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="obra.html" >Obras</a>
+                <a href="sobre.html">Sobre</a>
+                <a href="imagem.html">Imagens</a>
+                <a href="linha.html">Linha do Tempo</a>
+            </nav>
+        </div>
+    <section>
+        <div id="principal">
+            <br>
+
+            <h3>Stephen King: Inicio ao Terror</h3>
+            <br>
+            <p class="text">
+            Stephen Edwin King nasceu em Portland, nos Estados Unidos, em 21 de setembro de 1947. É um escritor norte-americano cujo principal gênero é terror, mas também aborda suspense, ficção científica e fantasia. Já publicou 59 romances, sendo 7 sob o pseudônimo de Richard Bachman.
+            </p>
+            <p class="text">
+            Stephen tinha apenas
+             dois anos quando foi abandonado pelo pai, sendo criado apenas pela mãe e irmão mais velho adotivo. Sua infância foi marcada por uma série de dificuldades financeiras e mudanças de casa em diferentes cidades norte-americanas. Há quem diga que o que inspirou seu lado sombrio e criações perturbadoras foi um acidente presenciado ainda pequeno, 
+             em que um de seus amigos ficou preso em uma ferrovia e atropelado por um comboio. O próprio autor nega ser esse o início de suas inspirações macabras.
+            </p>
+            <img id="img-div" src="https://images.wook.pt/getresourcesservlet/GetResource?ucqrmOCRbXbpixVgcFCcnEBCYQZfhp6+HvZbg8XVuDM=" alt=""> 
+        </div>
+        <div>
+            <br> <br> <br><br>
+            <p>Uma de suas primeiras ideias para um romance era sobre uma jovem com poderes psíquicos, mas Stephen desistiu da ideia. Foi então que sua esposa resgatou os esboços do lixo e o encorajou a voltar a escrever essa história. Ele terminou o romance e intitulou como “Carrie”, enviando para a editora de livros norte-americana Doubleday. Pouco antes do livro ser publicado, sua mãe faleceu vítima de um câncer no útero.
+
+                King já admitiu que na época da morte de sua mãe ele desenvolveu uma grave dependência de álcool por mais de uma década. Ele também declarou que o personagem Jack Torrance, de “O Iluminado” foi baseado nele mesmo. Stephen cortou o álcool e qualquer tipo de droga por volta de 1980, de acordo com ele, está sóbrio desde então.
+                </p>
+            <img src="https://images.unsplash.com/photo-1509248961158-e54f6934749c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=722&q=80" alt="">
+        </div>
+    </section>
+
+    
+    <footer>
+        <div>
+            <p class="final" id="final" name="final">
+                
+            </p>
+        </div>
+    </footer>
+    <script>
+
+        var horario=new Date();
+        horario=horario.toLocaleString();
+        console.log(horario);
+        document.getElementById('final').innerHTML=horario; 
+
+        const imagem = document.getElementById('img-div')
+		imagem.onclick = function mudaImagem () {
+        imagem.src='https://hips.hearstapps.com/digitalspyuk.cdnds.net/17/38/1505731747-pennywise-teeth-it-movie.jpg?crop=1xw:0.8888888888888888xh;center,top&resize=1200:*';
+        }
+
+        const titulo = document.getElementById('title');
+		titulo.onclick = function mudaTexto() {
+		titulo.textContent = 'Melhor Escritor de Terror';
+        }
+        
+    </script>
+</body>
+</html>

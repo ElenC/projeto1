@@ -1,0 +1,139 @@
+body{
+    background: rgb(236, 230, 230);
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+#main{
+    margin: 0px;
+}
+#area-cabeçalho{
+   
+    background-image: url(https://images.unsplash.com/photo-1527224103471-559916697f3a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80);
+    width: 350px 250px;
+    padding: 15px;
+    text-align: center;
+}
+#title{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h3{
+    font-size: 1em;
+    margin: 50px;
+}
+#menu{
+    background-color: whitesmoke;
+    line-height: 1em;
+    display: block;
+    text-align: center;
+}
+   
+a{
+    font-size: 25px;
+    text-decoration: none;
+    color: gray; 
+    padding: 20px; 
+}
+a:hover{
+    color: red;
+}
+a:visited{
+    color: black;
+}
+
+#principal{
+    width: 700px;
+}
+.text{
+    margin: 5px;
+    padding: 10px 5px;
+    font-size: 20px;
+    float: left;
+}
+#img-div{
+    width: 300px;
+    position: absolute;
+    right: 150px;
+    border-radius: 10px;
+    margin-top: -60px;
+    margin-left: 40px;
+    
+}
+p{
+    margin: 5px;
+    padding: 50px;
+    font-size: 20px;
+    float: left;
+}
+
+img{
+ margin: 5px;
+}
+
+#link {
+    font-size: 20px;
+    text-decoration: none;
+    color: gray; 
+    padding: 20px; 
+}
+
+h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 10px;
+}
+#secundario{
+    margin: 5px;
+    padding: 20px;
+    font-size: 20px;
+    float: left;
+}
+
+.about{
+    font-size: 22px;
+    padding: 15px;
+}
+
+#foto{
+    width: 900px;
+    height: 450px;
+    margin-left: 80px;
+    border-radius: 10px;
+}
+#pic{
+    height: 450px;
+    margin-left: 80px;
+    border-radius: 10px;
+}
+
+table{
+    width: 600px;
+    border-collapse: separate;
+}
+th, td{
+    padding: 10px;
+    font-size: 25px;
+}
+
+th{
+    text-align: left;
+	font-size: 90%;
+	letter-spacing: 0.01em;
+}
+
+.picture{
+    width: 400px;
+    padding: 15px;
+    float: left;
+   max-width: 500px;
+}
+
+
+.final{
+   
+    color: white;
+    background-image: url(https://images.unsplash.com/photo-1472566316349-bce77aa2a778?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+    width: 100%;
+}
